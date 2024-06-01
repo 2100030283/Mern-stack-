@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-color:lightgreen;
+        height: 960px;
+        border: solid lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .box{
+        background-color: beige;
+        width: 500px;
+        height: 500opx;
+        border-color: brown;
+        margin: 5px;
+        padding: 5px;
+        /* box-shadow: -20px 20px brown;
+         */
+         /* box-shadow: 20px 25px 50px brown; */
+         /* box-shadow: 20px 25px 40px 43px brown; */
+         /* box-shadow: inset 20px 18px 23px brown; */
+         box-shadow: 10px 23px rebeccapurple,17px 28px goldenrod;
+
+    }
+    #head{
+        text-shadow: 3px 2px 3px lavender;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="blar.jpg" alt="">
+            <h2 id="head" >Welcome to the world of ai</h2>
+            <p>AI is revolutionizing various sectors in the present world with its wide range of applications. 
+                In healthcare, AI enhances diagnostics by analyzing medical images and assists in personalized medicine,
+                 tailoring treatments based on individual genetic profiles. The finance sector leverages AI 
+                 for algorithmic trading, fraud detection, and credit scoring, optimizing financial operations and 
+                 security. Autonomous vehicles and traffic management systems in transportation rely on AI for efficient
+                  navigation and congestion reduction. Retail benefits from AI through personalized shopping experiences
+                  , inventory management, and customer service automation. Education utilizes AI for personalized
+                   learning plans, automated grading, and AI-powered tutoring systems. In entertainment, AI powers
+                    content recommendation, creation, and enhances gaming experiences. 
+                    Agriculture employs AI for precision farming, crop monitoring, and pest control. 
+                    Manufacturing sees improvements in quality control, predictive maintenance, and supply chain
+                     optimization due to AI. Lastly, the energy sector uses AI for managing smart grids, predictive
+                      maintenance of infrastructure,
+                 and optimizing energy distribution, demonstrating AI's transformative impact across diverse
+                  industries.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
