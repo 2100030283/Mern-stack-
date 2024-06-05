@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Powered Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+      <div class="container">
+        <header>
+        <div class="navcontainer">
+            <nav>
+                <ul id="navlist">
+                    <li>
+                        <p id="navlogo">AI Powered Serach Engine</p>
+                    </li>
+                    <li>
+                        <div id="navitems">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+   
+    </header>
+    <main>
+        <div class="contentbox">
+            <section>
+                <div class="item">
+                    
+                    <div class="leftbox">
+                        <h1>Mendeley</h1>
+                        <div>
+                            <h1>Features:</h1>
+                        <p id="fe">Add papers directly from your browser with a few clicks or import any documents from your desktop. 
+                            Access your library from anywhere. Windows, Mac, Linux and all browsers. </p>
+                            
+                        </div>
+                        <div>
+                            <h1 id="use">
+                                Use Case:
+                            </h1>
+                            <p>Academic research and collaboration.</p>
+                        </div>
+                    </div>
+                    <div class="rightbox">
+                        <img src="mend.jpg" alt="">
+                    </div>
+
+                </div>
+               
+            </section>
+            <br>
+            <br>
+            <section>
+                <div class="item">
+                    
+                    <div class="leftbox">
+                        <h1>Zotero</h1>
+                        <div>
+                            <h1>Features:</h1>
+                        <p> Reference management tool that helps collect, organize, cite,
+                             and share research sources. AI assists in managing bibliographies and citations.</p>
+                            
+                        </div>
+                        <div>
+                            <h1>
+                                Use Case:
+                            </h1>
+                            <p>Research projects, thesis writing.</p>
+                        </div>
+                    </div>
+                    <div class="rightbox">
+                        <img src="zoto.jpg" alt="">
+                    </div>
+
+                </div>
+               
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footerbox">
+            <p>Copyright &copy; AI Powered Engine pvt Ltd 2024 All rights ae Reserved</p>
+        </div>
+    </footer>
+      
+
+</div>
+</body>
+</html>
